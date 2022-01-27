@@ -17,12 +17,10 @@ public class StudentConfig {
     CommandLineRunner commandLineRunner(StudentDAO studentDAO){
         return args -> {
             Student allan=new Student(
-                    23,
                     "Allan Limo",
                     LocalDate.of(1997, MARCH,28),
                     "Allanlimo02@gmail.com");
             Student mercy=new Student(
-                    23,
                     "Allan Limo",
                     LocalDate.of(1995, JULY,17),
                     "mkagwiria4@gmail.com");
